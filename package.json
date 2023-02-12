@@ -1,5 +1,5 @@
 {
-  "name": "node-js-first-lesson",
+  "name": "goit-node-hw-01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,24 @@
     "start": "node index",
     "start:dev": "nodemon index"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImVladislav/-goit-node-hw-01.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/voanergesKM/goit-node-hw-01/issues"
+  },
+  
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "commander": "^10.0.0",
     "uuid": "^9.0.0"
   },
+  "homepage": "https://github.com/ImVladislav/-goit-node-hw-01#readme",
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
